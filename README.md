@@ -1,4 +1,4 @@
-# Amazon_fine_food_reviews
+# Amazon Fine Food Reviews 
 Apply different ML techniques for sentiment analysis using amazon fine food reviews data
 
 Dataset source : <a href=https://www.kaggle.com/snap/amazon-fine-food-reviews>Kaggle dataset</a>
