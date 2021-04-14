@@ -11,3 +11,4 @@ ML algorithms applied :
 * <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_Fine_Food_Naive_Bayes.ipynb">Naive Bayes</a>
 * <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_Fine_Food_Applying_Logistic_Regression.ipynb">Logistic Regression</a>
 * <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_SVM.ipynb">SVM - Linear and RBF </a>
+* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_reviews_Decision_Trees.ipynb">Decision Trees</a>
