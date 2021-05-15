@@ -1,14 +1,24 @@
 # Amazon Fine Food Reviews 
-Apply different ML techniques for sentiment analysis using amazon fine food reviews data
+Using review text data the objective is to predict whether the review sentiment is positive or negative.
+This is a classification problem.
 
 Dataset source : <a href=https://www.kaggle.com/snap/amazon-fine-food-reviews>Kaggle dataset</a>
 
-Preprocessing :
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_Preprocessing_steps_and_applying_Tsne.ipynb">Preprocessing and apply Tsne</a> 
+## Data Labelling :
+* Scores above 3 has been labelled as positive and below 3 as negative
 
-ML algorithms applied :
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_reviews_KNN.ipynb">KNN</a>
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_Fine_Food_Naive_Bayes.ipynb">Naive Bayes</a>
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_Fine_Food_Applying_Logistic_Regression.ipynb">Logistic Regression</a>
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_SVM.ipynb">SVM - Linear and RBF </a>
-* <a href="https://github.com/pravvvv/Amazon_fine_food_reviews/blob/main/Amazon_fine_food_reviews_Decision_Trees.ipynb">Decision Trees</a>
+## Preprocessing Steps :
+* Remove html tags
+* Remove punctuations, special characters
+* Check for alpha numeric (avoid in most cases)
+* Convert to lowercase
+* Remove stopwords
+
+## Feature Engineering :
+* Bag of Words
+* TF-IDF
+
+## ML Models trained and validated :
+* Logistic Regression on BoW
+* Logistic Regression on TF-IDF
+
